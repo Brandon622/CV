@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
 
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 <body>
 
@@ -18,11 +22,13 @@
     <div class="top-container">
         <img src="images/cloud.png" alt="cloud img" class="top-cloud">
 
+        <div class="name">
     <h1>I'm Brandon</h1>
     <h2>a <span class="pro"> pro</span>grammer.</h2>
     <img src="images/cloud.png" alt="cloud img" class="bottom-cloud">
 
-    <img src="images/mountain.png" alt="mountain">
+    <img src="images/mountain.png" alt="mountain" class="mount">
+  </div>
 </div>
 
 <div class="middle-container">
@@ -71,6 +77,43 @@
     <a class="link" href="https://brandon622.github.io/CV/">Website</a>
     <p>© 2020 Brandon Davies.</p>
   </div>
+
+
+
+  <script>
+    window.sr = ScrollReveal();
+  sr.reveal('.top-cloud',{
+    duration: 2000,
+    origin:'right',
+    distance:'500px'
+  });
+
+  sr.reveal('.bottom-cloud',{
+    duration: 2000,
+    origin:'right',
+    distance:'500px'
+  });
+
+  sr.reveal('.mount',{
+    duration: 900,
+    origin:'bottom',
+    distance:'200px'
+  });
+  sr.reveal('.name',{
+    duration: 3000,
+    origin:'top',
+    distance:'500px'
+  });
+
+  sr.reveal('.btn',{
+    duration: 3000,
+    origin:'bottom',
+    distance:'500px'
+  });
+
+
+
+  </script>
 
   
 </body>
