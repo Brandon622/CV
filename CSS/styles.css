@@ -79,6 +79,7 @@ a{
     width: 100%;
    position: relative;
    padding-top: 100px;
+   background-attachment: fixed;
   
  
 }
@@ -206,6 +207,9 @@ a{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
     
     
     
@@ -242,4 +246,39 @@ a{
 
   .link:hover{
      
+  }
+
+
+
+  /*****MOBILE ****/
+
+  @media (max-width: 600px){
+
+
+    
+    
+
+    .top-container .mount{
+            width: 100%;
+    }
+
+    .bottom-cloud {
+        width: 20%;
+        
+        
+    }
+    .top-cloud {
+            width: 20%;
+           
+    }
+
+    .skill-row{
+        width: 80%;
+        margin: 0;
+    }
+
+    .skill-row img{
+    
+    }
+
   }
