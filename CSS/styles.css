@@ -105,8 +105,8 @@ a{
 
 
 .profile img{
-    width: 200px;
-    border-radius: 50%;
+    width: 300px;
+    border-radius: 20rem;
 }
 
 .profile img:hover{
@@ -214,6 +214,29 @@ a{
     
     
 }
+
+
+.websites{
+    
+}
+
+.websites img{
+    width: 250px !important;
+    margin: 10px 100px 10px 100px;
+    transition: ease-in-out 1s;
+    
+}
+
+.websites img:hover{
+    box-shadow: 20px 10px 10px 1px #a5a5a5 ;
+    
+    border-radius: 30px;
+}
+
+.my_image{
+    height: 200px !important;
+}
+
 
 .contact-message{
     width: 40%;
