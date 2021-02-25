@@ -164,7 +164,7 @@ a{
 }
 
 .bottom-container{
-   background-color: #66bfbf;
+    background-image: linear-gradient(to left bottom, #051937, #00446b, #00759d, #00abc9, #12e2eb);
    color: white;
   padding: 50px 0 20px;
    
