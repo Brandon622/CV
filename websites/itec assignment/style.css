@@ -1,0 +1,430 @@
+
+/*properties for all of the elements */
+
+*{
+    height: auto;
+    box-sizing: border-box;
+    scroll-behavior: auto;
+   
+}
+
+
+ /* set body to have no margin or padding*/
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+ /* NavBar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #882fc4;
+    color: white;
+}
+
+
+.logo{
+    font-size: 24px;
+    margin: 20px;
+    
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links ul{
+    margin: 10px 100px  ;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+
+}
+.navbar-links li a {
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+    padding: 1rem;
+    display: block;
+}
+
+/* show what link is being hovered on and which is active */
+
+.navbar-links li:hover{
+    background-color: #a54de0 ;
+    border-radius: 10%;
+}
+
+.active{
+    background-color: rgba(21, 157, 235, 0.815);
+    border-radius: 10%;
+}
+
+/* toggle button properties for hamburger icon creation */
+
+.toggle-button{
+    position: absolute;
+    
+    top: 20px;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white ;
+    border-radius: 10px;
+}
+/*  End of NavBar*/
+
+/* background image*/
+
+.hero{
+    background-image: url(images/cover.jpg);
+    background-position-y: 25%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    width: 100%;
+    background-color: rgb(45, 45, 46);
+    
+    height: 350px;
+    
+} 
+.hero h1{
+    font-size: 40px;
+     top: 50%;
+     margin: auto auto auto 20px;
+    transform: translateY(-50%);
+    width: 300px;
+    color: white;
+    text-shadow:  2px 2px 3px rgb(32, 32, 32);
+    position: absolute;
+}
+/* end background image*/
+
+
+/* client section home page*/
+
+
+/* set the margin of the client section */
+.client-section{
+       
+    margin: 400px 0px 30px 0px;
+
+}
+
+
+.client-item{
+    
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.client-item a{
+    text-decoration: none;
+}
+
+ /* set size of  client images */
+.client-item img{
+    height: 200px;
+    width: 200px;
+}
+
+
+  
+/* about page*/
+ .image-placeholder{
+     display: flex;
+     justify-content: center;
+     margin: 100px 20px 100px 20px;
+
+     
+ }
+
+ /* set the values of the image place holder on about page */
+
+ .image-placeholder img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+     border-radius: 50%;
+ }
+
+ /*set the text properties */
+
+.about-me{
+    display: grid;
+    
+}
+.about-me h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-me p{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+/*projects*/
+
+.recent{
+    font-size: 25px;
+    
+    margin-left: 25px;
+}
+
+ /* container that will style the project boxes on the home page and projects page */
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+
+}
+.container-1 div{
+    border: none;
+    padding: 10px;
+}
+
+
+
+/*set size of container box */
+.container-1-box{
+    width: 250px;
+    height: 250px;   
+
+}
+
+
+
+
+
+
+
+
+
+/* contact */
+
+/* set the sides for the form */
+.contact {
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 900;
+}
+.contact h1 {
+    text-align: center;
+}
+
+
+/* set properties for the form items in contact page */
+
+.form-row{
+    padding: 12px;
+   
+    
+}
+
+.form-row input {
+   width: 100%;
+   padding: 7px;
+   border-radius: 5px;
+}
+
+.form-row select{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.form-row textarea{
+    width: 120%;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    color:rgb(231, 231, 231);
+    background: #882fc4;
+    padding: 20px;
+    border-radius: 7px;
+    
+}
+
+.form-submit:hover{
+    background-color:#ac42f3;
+}
+
+
+
+
+ 
+
+/* footer */
+footer, .about-foot{
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.863);
+    text-align: center;
+    
+}
+footer p{
+margin: 0px;
+color: white;
+}
+
+/*footer projects page */
+
+.footer-projects{
+    position: fixed;
+    width: 100%;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.863);
+    text-align: center;
+}
+.footer-projects p{
+    margin: 0px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*media queries that change the items at size of 768px or small that displays mobile version  */
+
+@media (max-width:768px){
+
+   
+   .toggle-button{
+        display: flex;
+
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+        
+        
+    }
+    /*changes nav bar to column */
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        
+
+    }
+
+    .navbar-links ul{
+      flex-direction: column;
+      width: 100%;
+      
+
+   
+
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links ul li a {
+        padding: 8px;
+        
+        
+    }
+    .navbar-links.active {
+        display: flex;
+        background-color: #7915bd;
+    } 
+
+    .active{
+        border-radius: 0%;
+    }
+
+    .navbar-links li:hover{
+        
+        border-radius: 0%;
+    }
+ 
+
+    /*home page*/
+
+    .client-section{
+        
+        flex-direction: row;
+        margin-left: auto;
+        
+        
+    }
+
+    /*About me page resizing*/
+    .about-me p{
+        margin-left: 11%;
+        margin-right: 11%;
+    }   
+    /*projects*/
+
+    .container-1 div, .container-2 div{
+        margin-top: 20px;
+    }
+
+    .footer-projects{
+        margin-top: 20px ;
+    }
+
+    /*Contact Page */
+    .contact {
+        margin-top: 100px;
+        margin-left:5%;
+        margin-right: 15%;
+    }
+    input[type=submit]{
+     
+     padding: 20px;
+    }
+    
+    
+    /*footer for pages */
+    footer, .footer-projects {
+        position: unset;
+        padding: 10px;
+    }
+    
+    
+}
+    /* media query for different hieght values that change the position of the footer */
+@media only screen and (max-height: 900px){
+    footer, .footer-projects{
+        position: unset;
+        
+    }
+}
+@media only screen and (max-height: 750px){
+    
+    .about-foot{
+        position: unset;
+    }
+}

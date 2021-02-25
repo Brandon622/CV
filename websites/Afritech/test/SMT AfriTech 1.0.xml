@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap scheme="2.1">
+  <title>SMT AfriTech</title>
+  <version>1.0</version>
+  <link>https://afritech.slickplan.com/6o06xgczko</link>
+  <pubDate>Fri, 22 Jan 2021 14:44:51 -0500</pubDate>
+  <settings>
+    <language>en_US</language>
+  </settings>
+  <section id="svgmainsection">
+    <options>
+      <template>horizontal</template>
+      <color_scheme>
+        <default_color>#d5d5d5</default_color>
+        <lines_color>#e5e5e5</lines_color>
+        <text_color>#595959</text_color>
+        <home>#3eadec</home>
+        <level1>#6fc4e4</level1>
+        <level2>#86d6dc</level2>
+        <level3>#ccf8f8</level3>
+        <level4>#b2ddee</level4>
+        <util>#79ddf9</util>
+        <foot>#79ddf9</foot>
+      </color_scheme>
+      <design>flat</design>
+      <id>svgmainsection</id>
+    </options>
+    <cells>
+      <cell id="svgh9ggqgtm8mgqkcdu">
+        <text>Home</text>
+        <level>home</level>
+        <order>1000</order>
+      </cell>
+      <cell id="svgmxle6wf33tmdgdh8">
+        <archetype>_consumption</archetype>
+        <level>1</level>
+        <order>1000</order>
+        <text>Products</text>
+      </cell>
+      <cell id="svgaebhzuvcjfjcb704">
+        <level>1</level>
+        <order>2000</order>
+        <text>About Us</text>
+      </cell>
+      <cell id="svgybkwp6jy4uav61ah">
+        <archetype>_form</archetype>
+        <level>1</level>
+        <order>3000</order>
+        <text>Contact Us</text>
+      </cell>
+      <cell id="svgevsld61wrohytxgc">
+        <level>2</level>
+        <order>1000</order>
+        <parent>svgmxle6wf33tmdgdh8</parent>
+        <text>Industrial Consumables</text>
+      </cell>
+      <cell id="svgte09e7sduiu86rns">
+        <order>2000</order>
+        <parent>svgmxle6wf33tmdgdh8</parent>
+        <text>Electronics</text>
+        <level>2</level>
+      </cell>
+      <cell id="svgvuublbhc5wqjltxn">
+        <text>Speciality Chemistries</text>
+        <level>2</level>
+        <order>4000</order>
+        <parent>svgmxle6wf33tmdgdh8</parent>
+      </cell>
+      <cell id="svgexbtfaiils9k6w8w">
+        <level>2</level>
+        <order>5000</order>
+        <parent>svgmxle6wf33tmdgdh8</parent>
+        <text>Brazing</text>
+      </cell>
+      <cell id="svgnncsjdbn7dhd0c4t">
+        <level>2</level>
+        <order>6000</order>
+        <parent>svgmxle6wf33tmdgdh8</parent>
+        <text>Consumables</text>
+      </cell>
+      <cell id="svgygr2cx82c6zyo63e">
+        <level>3</level>
+        <order>1000</order>
+        <parent>svgexbtfaiils9k6w8w</parent>
+        <text>unsure</text>
+      </cell>
+      <cell id="svgf6q4o8fwc3zr6sij">
+        <level>3</level>
+        <order>1000</order>
+        <parent>svgvuublbhc5wqjltxn</parent>
+        <text>Sanitizer</text>
+      </cell>
+      <cell id="svgzqozobctb79qxj4i">
+        <level>3</level>
+        <order>1000</order>
+        <parent>svgte09e7sduiu86rns</parent>
+        <text>Equipment</text>
+      </cell>
+      <cell id="svgpfl2es8nn6o5gylx">
+        <level>3</level>
+        <order>1000</order>
+        <parent>svgevsld61wrohytxgc</parent>
+        <text>Solder</text>
+      </cell>
+      <cell id="svgcddf8ic3rwpbmsdo">
+        <level>3</level>
+        <order>1000</order>
+        <parent>svgnncsjdbn7dhd0c4t</parent>
+        <text>Industrial Solders</text>
+      </cell>
+      <cell id="svgskbh72dx43kba84t">
+        <level>3</level>
+        <order>2000</order>
+        <parent>svgnncsjdbn7dhd0c4t</parent>
+        <text>Industrial Fluxes</text>
+      </cell>
+      <cell id="svgjg1bn6fh5ngnugxt">
+        <level>3</level>
+        <order>2000</order>
+        <parent>svgvuublbhc5wqjltxn</parent>
+        <text>Rust</text>
+      </cell>
+      <cell id="svgz0mh66vb4chcz04f">
+        <level>3</level>
+        <order>2000</order>
+        <parent>svgevsld61wrohytxgc</parent>
+        <text>Flux</text>
+      </cell>
+      <cell id="svgqq90azqemicfwkmq">
+        <level>3</level>
+        <order>2000</order>
+        <parent>svgexbtfaiils9k6w8w</parent>
+        <text>unsure</text>
+      </cell>
+      <cell id="svghfrad7pvlv4pzlhe">
+        <level>3</level>
+        <order>2000</order>
+        <parent>svgte09e7sduiu86rns</parent>
+        <text>Consumables</text>
+      </cell>
+      <cell id="svghyz33pkc35coigk6">
+        <level>3</level>
+        <order>3000</order>
+        <parent>svgvuublbhc5wqjltxn</parent>
+        <text>Glue</text>
+      </cell>
+      <cell id="svgs3suc6mhwvcyeb02">
+        <level>3</level>
+        <order>3000</order>
+        <parent>svgnncsjdbn7dhd0c4t</parent>
+        <text>Electronics</text>
+      </cell>
+      <cell id="svggo6ejify9zivdkcp">
+        <level>3</level>
+        <order>4000</order>
+        <parent>svgvuublbhc5wqjltxn</parent>
+        <text>Fluxes</text>
+      </cell>
+      <cell id="svgk4qo4bpafm5dnmjj">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svgskbh72dx43kba84t</parent>
+        <text>Plumbing</text>
+      </cell>
+      <cell id="svgtdy64xjt981ikxp4">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svggo6ejify9zivdkcp</parent>
+        <text>Electrical</text>
+      </cell>
+      <cell id="svgvpbeoezjskv5t648">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svghfrad7pvlv4pzlhe</parent>
+        <text>Flux</text>
+      </cell>
+      <cell id="svga6rr7mv7yagxh0jn">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svgcddf8ic3rwpbmsdo</parent>
+        <text>Plumbing</text>
+      </cell>
+      <cell id="svgln1ofhk9vj531tr4">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svgzqozobctb79qxj4i</parent>
+        <text>AOI</text>
+      </cell>
+      <cell id="svgzzjo1ote0mkr9oz1">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svgs3suc6mhwvcyeb02</parent>
+        <text>Coating</text>
+      </cell>
+      <cell id="svgh1w2exkr6q6qxwhw">
+        <level>4</level>
+        <order>1000</order>
+        <parent>svgz0mh66vb4chcz04f</parent>
+        <text>Electrical</text>
+      </cell>
+      <cell id="svgbt060ch3209o0uk9">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svgskbh72dx43kba84t</parent>
+        <text>Radiator</text>
+      </cell>
+      <cell id="svgdnrx3uds2yip1uq2">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svggo6ejify9zivdkcp</parent>
+        <text>Industrial</text>
+      </cell>
+      <cell id="svgoa6h06rk79la7dre">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svgcddf8ic3rwpbmsdo</parent>
+        <text>Radiator</text>
+      </cell>
+      <cell id="svgr3sizf7vfd3vrrr5">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svghfrad7pvlv4pzlhe</parent>
+        <text>Solder</text>
+      </cell>
+      <cell id="svgd5mvdi8zu7z5ntqx">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svgs3suc6mhwvcyeb02</parent>
+        <text>Solders</text>
+      </cell>
+      <cell id="svgvc3g9nqy2bcvpthp">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svgz0mh66vb4chcz04f</parent>
+        <text>Industrial</text>
+      </cell>
+      <cell id="svgdoyk0o6hkcvnlax3">
+        <level>4</level>
+        <order>2000</order>
+        <parent>svgzqozobctb79qxj4i</parent>
+        <text>SPI</text>
+      </cell>
+      <cell id="svgicj3evopdgdukfa7">
+        <level>4</level>
+        <order>3000</order>
+        <parent>svgzqozobctb79qxj4i</parent>
+        <text>Consumables</text>
+      </cell>
+      <cell id="svgad79iztuhcw40bti">
+        <level>4</level>
+        <order>3000</order>
+        <parent>svghfrad7pvlv4pzlhe</parent>
+        <text>Bar</text>
+      </cell>
+      <cell id="svgin82wj0ta6n6tvbf">
+        <level>4</level>
+        <order>3000</order>
+        <parent>svgs3suc6mhwvcyeb02</parent>
+        <text>Cleaning</text>
+      </cell>
+      <cell id="svgcurxxfrfb2gpossh">
+        <level>4</level>
+        <order>3000</order>
+        <parent>svgcddf8ic3rwpbmsdo</parent>
+        <text>Stained Glass</text>
+      </cell>
+      <cell id="svgijzja8w1qcu6w2jv">
+        <level>4</level>
+        <order>3000</order>
+        <parent>svgskbh72dx43kba84t</parent>
+        <text>Glass</text>
+      </cell>
+      <cell id="svghpzia76w4w2q2zh5">
+        <level>4</level>
+        <order>4000</order>
+        <parent>svghfrad7pvlv4pzlhe</parent>
+        <text>Wire</text>
+      </cell>
+      <cell id="svgvmbfxalbycp4mu8j">
+        <level>4</level>
+        <order>4000</order>
+        <parent>svgs3suc6mhwvcyeb02</parent>
+        <text>Fluxes</text>
+      </cell>
+      <cell id="svgtmixykr7lmxltdg0">
+        <level>4</level>
+        <order>4000</order>
+        <parent>svgzqozobctb79qxj4i</parent>
+        <text>X Ray</text>
+      </cell>
+      <cell id="svguukvu7wz24u1ej03">
+        <level>4</level>
+        <order>5000</order>
+        <parent>svgs3suc6mhwvcyeb02</parent>
+        <text>Paste</text>
+      </cell>
+      <cell id="svgenp8gf4j1ysuwfkn">
+        <level>4</level>
+        <order>5000</order>
+        <parent>svgzqozobctb79qxj4i</parent>
+        <text>Stencil</text>
+      </cell>
+      <cell id="svgs44u054xv6y9oyz6">
+        <level>4</level>
+        <order>5000</order>
+        <parent>svghfrad7pvlv4pzlhe</parent>
+        <text>Coating</text>
+      </cell>
+      <cell id="svgpdh29cmpi4qsswwm">
+        <level>4</level>
+        <order>6000</order>
+        <parent>svghfrad7pvlv4pzlhe</parent>
+        <text>Cleaners</text>
+      </cell>
+      <cell id="svgw6fkh8kyl5094jj6">
+        <level>4</level>
+        <order>6000</order>
+        <parent>svgzqozobctb79qxj4i</parent>
+        <text>ESD Jacket</text>
+      </cell>
+    </cells>
+  </section>
+</sitemap>

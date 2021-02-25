@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style.css">
+     <script src="../script.js" defer></script>
+    <title>Contact Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           
+         
+            <div class="logo" ><a href="../Home.html">Brandon Donovan Davies</a> </div>
+
+               <!--Hamburger menue-->
+            <a href="#" class="toggle-button">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span> 
+            </a>
+
+            <!--page links-->
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="../Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a class="active" href="Contact.html">Contact</a></li> 
+                </ul>
+            </div>
+    
+        </nav>
+    </header>
+    <div class="contact">
+        <h1>Contact</h1>
+    
+    
+   <!---FORM for contact page that validates with the javaScript function called check()-->
+
+        <form  action="#"  onsubmit="return check()" >
+        <div class="form-row">
+            <label for="name">Full Name</label>
+            <br>
+            <input id="Uname" type="text" placeholder="Your Name.." name="name">
+        </div>
+
+        <div class="form-row">
+            <label for="email">Email Address</label>
+            <br>
+            <input id="Umail" type="email" placeholder="Enter Email Address.." name = email>
+        </div>
+
+        <div class="form-row">
+            <label for="number">Mobile Number</label>
+            <br>
+            <input id="Utel" type="tel" placeholder="Enter Number.." name="number">
+        </div>
+
+        <div class="form-row">
+            <label for="country">Country</label>
+            <br>
+            <select id="country" name="countrylist" >
+                <option value="" disabled selected hidden>Select</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Australia">Australia</option>
+                <option value="United States">United States</option>
+                <option value="United Kingdom">United Kingdom</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="message">Message</label>
+            <br>
+            <textarea id="text-message" name="message" id="message-area" cols="30" rows="10" placeholder="Type your message.."></textarea>
+        </div>
+        <div class="form-row">
+        <input  type="submit" name="Submit"   >
+        </div>
+
+    </form>
+</div>
+    
+   <!--footer-->
+    <footer>
+        <p>Copyright &copy; 2020 Brandon Donovan Davies </p>
+
+    </footer>
+    
+</body>
+</html>
